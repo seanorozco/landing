@@ -1,0 +1,158 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  color: #ffffff;
+  background-color: #222;
+  
+  .btn {
+    margin-top: 1.25em;
+  }
+}
+
+
+/* STRIPS */
+
+.strip {
+  background-color: #fff;
+  text-align: center;
+}
+.strip-pad {
+  padding: 2.5em 0;
+}
+
+.strip-ltgray {
+  background-color: #f5f5f5;
+}
+.strip-gray {
+  background-color: #d7d7d7;
+}
+.strip-dkgray {
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+.strip-media {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.strip-content {
+  padding: 2em;
+}
+
+.strip-content.right {
+  text-align: right;
+}
+.strip-content.left {
+  text-align: left;
+}
+.strip-content h3 {
+  font-size: 44px;
+}
+.strip-content p {
+  font-size: 18px;
+}
+
+
+/* JUMBOTRON */
+
+.jumbotron {
+  margin-bottom: 0;
+  background: transparent url("../img/business-man.jpg") no-repeat right top;
+  background-size: cover;
+  border-radius: 0 !important;
+  
+  @media (min-width: 768px) {
+    height: 300px;
+  }
+  
+  
+  h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+    font-size: 2em;
+    margin-top: 50%;
+    background-color: rgba(255,255,255,.8);
+    padding: .45em;
+    
+    @media (min-width: 768px) {
+      font-size: 3.5em;
+      width: 410px;
+      margin-top: 0;
+      background-color: transparent;
+      padding: 0;
+    }
+    
+    @media (min-width: 992px) {
+      width: 540px;
+    }
+    
+    
+  }
+}
+
+
+/* STEPS */
+
+.steps i {
+  text-align: center;
+  display: block;
+  font-size: 6em;
+    color: #20C71C;
+}
+
+.steps h2 {
+  margin-bottom: 1em;
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.steps h3 {
+  text-align: center;
+  display: block;
+}
+
+//.steps {
+//  .signup {
+//    color: #20C71C;
+//  }
+//  .preapproved {
+//    color: #0F59AE;
+//  }
+//  .getfunded {
+//    color: pink;
+//  }
+//}
+
+
+
+/* MISC */
+
+.revolvingcreditlines {
+  font-size: 26px;
+  font-style: italic;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+
+
+
+.vertical-align {
+  display: flex;
+  align-items: center;
+}
+
+
+/* HELPERS */
+.emphasis {
+  color: #0F59AE;
+  font-weight: bold;
+}
+
+
