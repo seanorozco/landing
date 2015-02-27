@@ -7,10 +7,33 @@ header {
   color: #222;
   background-color: #fff;
   
+  h1 {
+    font-weight: 100;
+  }
+  
   .btn {
     margin-top: 1.25em;
   }
+  
+  img {
+  
+    @media (min-width: 768px) {
+      max-height: 100px !important;
+    }
+    
+  }
 }
+
+.btn {
+  -webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+transition: all .3s ease-in-out;
+  &:hover, &:visited, &:active {
+    color: #fff;
+  }
+  
+}
+
 
 
 /* STRIPS */
@@ -126,7 +149,7 @@ header {
   text-align: center;
   display: block;
   font-size: 6em;
-    color: #20C71C;
+    color: #0F59AE;
 }
 
 .steps h2 {

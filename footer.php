@@ -12,7 +12,7 @@
       <div class="container">
         <footer>
 
-          Footer Content
+          <span>Epic Capital Solutions, LLC &copy; 2015</span>
 
         </footer> 
       </div><!-- .container -->

@@ -46,14 +46,15 @@
     <header>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-xs-6">
-            <h1>Epic Capital Solutions</h1> 
+          <div class="col-sm-6">
+            <h1>Epic Capital Solutions, LLC</h1> 
+<!--            <img class="img-responsive" src="<?php bloginfo('template_directory') ?>/img/epiccapital-logo.svg" />-->
+
           </div>           
-          <div class="col-xs-6">
-            <a class="btn btn-default pull-right hidden-xs">Get Pre-Approved</a>
+          
+          <div class="col-sm-6">
+            <a href="#form-wrapper" class="btn btn-primary pull-right hidden-xs">Get Pre-Approved</a>
           </div>                            
         </div>
       </div><!-- .container-fluid -->
     </header>
-
-

@@ -111,8 +111,8 @@ get_header(); ?>
       <div class="container">
         
         <div class="cta-wrap">
-          <h2>A sentence convincing someone to click the button.</h2>
-          <a class="btn btn-default">Get Pre-Approved</a>
+          <h2>Ready to move on to the next level?</h2>
+          <a href="#form-wrapper" class="btn btn-primary">Get Pre-Approved</a>
         </div>
       </div>
       
@@ -144,11 +144,12 @@ get_header(); ?>
     </div><!-- .strip -->
     
     <div class="container">
-
-      <div class="form-wrap">
+    <div class="container">
+      
+      <div id="form-wrapper" class="form-wrap">
         <h3>Sign up to see if you qualify.</h3>
         <p>Fill out the info below to get Pre-Approved for up to $150,000 in funding!</p>
-        <?php echo do_shortcode( '[gravityform id="1" name="Flip Funding" title="false" description="false"]' ); ?>
+        <?php echo do_shortcode( '[gravityform id="2" name="Flip Funding" title="false" description="false"]' ); ?>
       </div><!-- .form-wrap -->
     </div>
 
