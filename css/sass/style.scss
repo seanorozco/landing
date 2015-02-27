@@ -1,10 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
 }
 
 header {
-  color: #ffffff;
-  background-color: #222;
+  color: #222;
+  background-color: #fff;
   
   .btn {
     margin-top: 1.25em;
@@ -40,6 +41,19 @@ header {
 
 .strip-content {
   padding: 2em;
+  
+  @media (min-width: 850px) {
+    padding: 3em;
+  }
+  
+  @media (min-width: 900px) {
+    padding: 4em;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1023px) {
+    padding: 2em 4em;
+  }
+  
 }
 
 .strip-content.right {
@@ -49,7 +63,12 @@ header {
   text-align: left;
 }
 .strip-content h3 {
+  margin-top: 0;
   font-size: 44px;
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    font-size: 22px;
+  }
 }
 .strip-content p {
   font-size: 18px;
@@ -65,7 +84,12 @@ header {
   border-radius: 0 !important;
   
   @media (min-width: 768px) {
-    height: 300px;
+    padding: 100px 0;
+    
+  }  
+  @media (min-width: 1200px) {
+    padding: 150px 0;
+    
   }
   
   
@@ -156,3 +180,42 @@ header {
 }
 
 
+
+/* CTA */
+.cta-wrap {
+  padding: 3em 2em;
+  h2 {
+    margin: 0 0 1em;
+  }
+}
+
+/* FORM */
+.form-wrap {
+  
+  h3, p {
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  
+    @media (min-width: 768px) {
+      font-size: 34px;
+    }
+  }
+  
+  p {
+    font-size: 16px;
+  
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    padding: 3em 0;
+  }
+  
+}

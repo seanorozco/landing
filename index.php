@@ -68,11 +68,9 @@ get_header(); ?>
 -->
     
     <div class="strip strip-gray strip-pad">
-<!--
       <div class="container">
         <h2 class="revolvingcreditlines">Get up to $150,000 in Revolving Credit Lines to Fund Your New Real Estate Business!</h2>
       </div>
--->
     </div><!-- .strip -->
     
     
@@ -112,9 +110,10 @@ get_header(); ?>
       
       <div class="container">
         
-        <h2>A sentence convincing someone to click the button.</h2>
-        <a class="btn btn-default">Get Pre-Approved</a>
-        
+        <div class="cta-wrap">
+          <h2>A sentence convincing someone to click the button.</h2>
+          <a class="btn btn-default">Get Pre-Approved</a>
+        </div>
       </div>
       
     </div><!-- .strip -->
@@ -130,12 +129,14 @@ get_header(); ?>
     
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-6 strip-content left">
-            <h3>Use the funds for anything you need.</h3>
-            <p>Utilize the new cash for Property Purchases, Renovation Expenses, Marketing &amp; Promotion... Anything your new business needs!</p>
-          </div>
-          <div class="col-sm-6 strip-media">
+          <div class="col-sm-6 col-sm-push-6 strip-media">
             <img class="img-responsive" src="<?php bloginfo('template_directory') ?>/img/new-home.jpg" />
+          </div>
+          <div class="col-sm-6 col-sm-pull-6 strip-content left">
+            <div class="content-wrap">
+              <h3>Use the funds for anything you need.</h3>
+              <p>Utilize the new cash for Property Purchases, Renovation Expenses, Marketing &amp; Promotion... Anything your new business needs!</p>
+            </div>
           </div>
         </div><!-- .row -->
       </div><!-- .container-fluid -->
@@ -143,7 +144,12 @@ get_header(); ?>
     </div><!-- .strip -->
     
     <div class="container">
-      <?php echo do_shortcode( '[gravityform id="1" name="Flip Funding" title="false" description="false"]' ); ?>
+
+      <div class="form-wrap">
+        <h3>Sign up to see if you qualify.</h3>
+        <p>Fill out the info below to get Pre-Approved for up to $150,000 in funding!</p>
+        <?php echo do_shortcode( '[gravityform id="1" name="Flip Funding" title="false" description="false"]' ); ?>
+      </div><!-- .form-wrap -->
     </div>
 
 
