@@ -53,7 +53,7 @@
           </div>           
           
           <div class="col-sm-6">
-            <a href="#form-wrapper" class="btn btn-primary pull-right hidden-xs">Get Pre-Approved</a>
+            <a data-scroll href="#form-wrapper" class="btn btn-primary pull-right hidden-xs">Get Pre-Approved</a>
           </div>                            
         </div>
       </div><!-- .container-fluid -->
