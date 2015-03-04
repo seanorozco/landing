@@ -28,6 +28,10 @@
 
 <?php wp_footer(); ?>
 
+<script>
+$( ".gform_button" ).last().addClass( "btn btn-primary btn-lg btn-block" );
+</script>
+
 
 <script>
   smoothScroll.init({

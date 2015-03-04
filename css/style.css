@@ -102,6 +102,9 @@ header {
         width: 540px; } }
 
 /* STEPS */
+.step-content {
+  margin-bottom: 30px; }
+
 .steps i {
   text-align: center;
   display: block;
