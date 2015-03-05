@@ -107,6 +107,7 @@ function landing_scripts() {
   
     wp_enqueue_script( 'landing-bootstrap-script', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '1.0.0', true );
     wp_enqueue_script( 'landing-smooth-scroll', get_template_directory_uri() . '/js/smooth-scroll.min.js', array( 'jquery' ), '1.0.0', true );
+    wp_enqueue_script( 'landing-enquire-script', get_template_directory_uri() . '/js/enquire.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'landing-app-script', get_template_directory_uri() . '/js/app.js', array( 'jquery' ), '1.0.0', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

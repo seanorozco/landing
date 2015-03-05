@@ -181,3 +181,6 @@ header {
 @media (min-width: 768px) {
   .form-wrap {
     padding: 3em 0; } }
+.form-wrap .btn {
+  font-size: 1.25em !important;
+  font-weight: 600; }

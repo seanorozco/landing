@@ -1,4 +1,9 @@
 jQuery(document).ready(function($) {
+  
+// Inside of this function, $() will work as an alias for jQuery()
+// and other libraries also using $ will not be accessible under this shortcut
+  
+  /* SmoothScroll */  
   smoothScroll.init({
     speed: 1000, // Integer. How fast to complete the scroll in milliseconds
     easing: 'easeInOutQuart', // Easing pattern to use
@@ -8,6 +13,8 @@ jQuery(document).ready(function($) {
     callbackAfter: function ( toggle, anchor ) {} // Function to run after scrolling
   });
   
-    // Inside of this function, $() will work as an alias for jQuery()
-    // and other libraries also using $ will not be accessible under this shortcut
+  
+  /* .addClass to form button */
+  $( ".gform_button" ).last().addClass( "btn btn-primary btn-lg" );
+  
 });
