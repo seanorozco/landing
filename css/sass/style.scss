@@ -77,31 +77,49 @@ transition: all .3s ease-in-out;
   padding: 2em;
   
   @media (min-width: 850px) {
-    padding: 3em;
+    padding: 3em 3em 0;
   }
   
   @media (min-width: 900px) {
-    padding: 4em;
+    padding: 4em 4em 0;
   }
   
-  @media (min-width: 992px) and (max-width: 1023px) {
-    padding: 2em 4em;
+  @media (min-width: 1024px) {
+    padding: 3em 3em 0;
   }
+  
+  @media (min-width: 1200px) {
+    padding: 7em 7em 0;
+  }
+  
+//  @media (min-width: 992px) and (max-width: 1023px) {
+//    padding: 2em 4em;
+//  }
   
 }
 
 .strip-content.right {
-  text-align: right;
+  
+  @media (min-width: 768px) {
+    text-align: right;
+  }
 }
 .strip-content.left {
-  text-align: left;
+  
+  @media (min-width: 768px) {
+    text-align: left;
+  }
 }
 .strip-content h3 {
   margin-top: 0;
   font-size: 44px;
   
-  @media (min-width: 768px) and (max-width: 991px) {
-    font-size: 22px;
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+  
+  @media (min-width: 1024px) {
+    font-size: 44px;
   }
 }
 .strip-content p {

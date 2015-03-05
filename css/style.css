@@ -53,26 +53,34 @@ header {
   padding: 2em; }
   @media (min-width: 850px) {
     .strip-content {
-      padding: 3em; } }
+      padding: 3em 3em 0; } }
   @media (min-width: 900px) {
     .strip-content {
-      padding: 4em; } }
-  @media (min-width: 992px) and (max-width: 1023px) {
+      padding: 4em 4em 0; } }
+  @media (min-width: 1024px) {
     .strip-content {
-      padding: 2em 4em; } }
+      padding: 3em 3em 0; } }
+  @media (min-width: 1200px) {
+    .strip-content {
+      padding: 7em 7em 0; } }
 
-.strip-content.right {
-  text-align: right; }
+@media (min-width: 768px) {
+  .strip-content.right {
+    text-align: right; } }
 
-.strip-content.left {
-  text-align: left; }
+@media (min-width: 768px) {
+  .strip-content.left {
+    text-align: left; } }
 
 .strip-content h3 {
   margin-top: 0;
   font-size: 44px; }
-  @media (min-width: 768px) and (max-width: 991px) {
+  @media (min-width: 768px) {
     .strip-content h3 {
-      font-size: 22px; } }
+      font-size: 30px; } }
+  @media (min-width: 1024px) {
+    .strip-content h3 {
+      font-size: 44px; } }
 
 .strip-content p {
   font-size: 18px; }
