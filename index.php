@@ -35,7 +35,7 @@ get_header(); ?>
       <div class="steps">
         <div class="container">
 
-          <h2>Fast, Easy. Funding. Now.</h2>
+          <h2>Get Fast Easy Funding Now!</h2>
 
           <div class="row">
             
