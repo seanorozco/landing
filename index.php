@@ -95,8 +95,10 @@ get_header(); ?>
             <img class="img-responsive" src="<?php bloginfo('template_directory') ?>/img/flowershop-owner.jpg" />
           </div>
           <div class="col-sm-6 strip-content right">
-            <h3>Get up to $150,000 to start, build and grow your business.</h3>
-            <p>Guaranteed minimum $50,000 if you are pre-approved! 0% interest for 12 months!</p>
+            <div>
+              <h3>Get up to $150,000 to start, build and grow your business.</h3>
+              <p>Guaranteed minimum $50,000 if you are pre-approved! 0% interest for 12 months!</p>
+            </div>
           </div>
         </div><!-- .row -->
 
@@ -140,8 +142,10 @@ get_header(); ?>
           </div>
           <div class="col-sm-6 col-sm-pull-6 strip-content left">
             <div class="content-wrap">
-              <h3>Use the funds for anything you need.</h3>
-              <p>Marketing and promotion, property purchases and rehabs. Use the funds multiple times!</p>
+              <div>
+                <h3>Use the funds for anything you need.</h3>
+                <p>Marketing and promotion, property purchases and rehabs. Use the funds multiple times!</p>
+              </div>
             </div>
           </div>
         </div><!-- .row -->
